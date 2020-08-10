@@ -1,0 +1,113 @@
+header{
+    background-color: #E60012;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header h1{
+    color: white;
+    border: 4px solid white;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 7px 14px 7px 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 27px;
+}
+
+body, ul, li, h1, h2{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    position: relative;
+    background-image: url("img/banner.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 93px;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.banner .welcome{
+    background-color: #feb614;
+    color: white;
+    position: absolute;
+    padding: 30px 50px 30px 80px;
+    top: 21%;
+}
+
+.banner h2{
+    font-size: 54px;
+}
+
+.banner h2 span{
+    font-size: 1.3em;
+}
+
+/* .viezesectie{
+position: absolute;
+} */
+
+nav{
+    background-color: #f4f4f4;
+    padding: 24px;
+    /* position: relative; */
+    /* top: 100px; */
+    /* z-index: 2; */
+}
+
+.main-nav{
+    /* display: block; */
+    position: sticky;
+    top: 91px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 60px auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+article h2{
+    color:#E60012;
+    font-size: 30px;
+}
+
+article p{
+    line-height: 140%;
+    color:#4b4b4b;
+
+}
