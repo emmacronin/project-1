@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <title>Mario Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
     <!-- <section class="viezesectie"> -->
     <nav class="main-nav">
         <ul>
-            <li><a href="/join.html" class="join">Join the club</a></li>
+            <li><a href="/join.html" class="joinclub">Join the club</a></li>
             <li><a href="/news.html">Latest news</a></li>
             <li><a href="/games.html">Browse games</a></li>
             <li><a href="/contact.html">Contact</a></li>
@@ -40,7 +41,7 @@
 
         <article>
 
-            <h2>It's a me, Mario!</h2>
+            <h2>It's a me, <span>Mario!</span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, corrupti aliquam illo id nemo quas porro
                 tempore placeat quod repudiandae ipsam odit numquam, sint ducimus. Praesentium beatae odio in nemo?
                 Omnis quam, mollitia consequuntur velit, dolorem, fuga dolores illum voluptatum obcaecati similique
@@ -53,40 +54,37 @@
         </article>
 
         <ul class="images">
-            <li><img src="img/thumb-1.png" alt="Screenshot of Mario and Yoshi jumping"></li>
-            <li><img src="img/thumb-2.png" alt="Screenshot of Mario swimming"></li>
+            <li class="img-left"><img src="img/thumb-1.png" alt="Screenshot of Mario and Yoshi jumping"></li>
+            <li class="img-right"><img src="img/thumb-2.png" alt="Screenshot of Mario swimming"></li>
         </ul>
 
-        <section class="join">
+    </main>
 
-            <h2>Join today</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta perspiciatis quidem ad corrupti aut.
-                Temporibus sit, omnis obcaecati laborum, id earum pariatur magni sint ipsum tenetur numquam consequatur
-                soluta! Magnam praesentium itaque recusandae ducimus fugiat rem fuga quibusdam accusamus temporibus,
-                vitae, placeat repudiandae nihil excepturi voluptatibus adipisci quis eveniet velit, eius asperiores!
-            </p>
+    <section class="join">
 
-            <form action="">
+        <h2>Join today</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta perspiciatis quidem ad corrupti aut!
+        </p>
 
-                <!-- <label for="Name">Name</label>
+        <form action="">
+
+            <!-- <label for="Name">Name</label>
                 <input type="text" name="name" placeholder="Mario" required> -->
 
-                <label for="email">E-mail</label>
-                <input type="email" name="email" placeholder="mario@nintendo.com" required>
+            <!-- <label for="email"></label> -->
+            <input type="email" name="email" placeholder="Type your email and hit enter" required>
 
-                <!-- <input type="submit" value="Join the club"> -->
+            <!-- <input type="submit" value="Join the club"> -->
 
-            </form>
+        </form>
 
-        </section>
+    </section>
 
-        <footer>
+    <footer>
 
-            <p class="copyright">Copywright Nintendo, Net Ninja, Meester Hekkie en Neri</p>
+        <p class="copyright">Copywright Nintendo, Net Ninja, Meester Hekkie en Neri</p>
 
-        </footer>
-
-    </main>
+    </footer>
 
 </body>
 

@@ -1,5 +1,5 @@
 header{
-    background-color: #E60012;
+    background-color: #f6303e;
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -43,7 +43,7 @@ body, ul, li, h1, h2{
 
 .banner .welcome{
     background-color: #feb614;
-    color: white;
+    color:#fff;
     position: absolute;
     padding: 30px 50px 30px 80px;
     top: 21%;
@@ -62,7 +62,7 @@ position: absolute;
 } */
 
 nav{
-    background-color: #f4f4f4;
+    background-color: #edeef0;
     padding: 24px;
     /* position: relative; */
     /* top: 100px; */
@@ -102,12 +102,172 @@ main{
 }
 
 article h2{
-    color:#E60012;
-    font-size: 30px;
+    color:#f6303e;
+    font-size: 34px;
 }
 
 article p{
-    line-height: 140%;
+    line-height: 150%;
     color:#4b4b4b;
+    margin: 20px 0;
+}
+
+.images{
+    text-align: center;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+
+.images li{
+    max-width: 45%;
+    display: inline-block;
+}
+
+.img-left{
+    margin: 0 2% 0 0;
+    /* border: 1px solid black; */
+}
+.img-right{
+    margin: 0 0 0 2%;
+}
+
+.images li img{
+    max-width: 100%;
+    border-radius: 5px; 
+}
+
+.join{
+    background-color: #faefdf;
+    text-align: center;
+    padding: 60px 20px;
+    /* max-width: 1200px; */
+}
+
+.join h2{
+    color:#f6303e;
+    font-size: 34px;
+}
+
+.join p{
+    /* max-width: 1200px; */
+}
+
+form input{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    text-align: center;
+    width: 300px;
+}
+
+footer{
+    background-color: #f6303e;
+    padding: 2px;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+nav li a:hover{
+    /* border-bottom: 1px solid black; */
+    padding-bottom: 4px;
+    color: #f6303e;
+    border-bottom: 1px solid #f6303e;
+    /* position: absolute;
+    bottom:1px; */
+}
+
+nav li:hover{
+    position: relative;
+    top:-2px;
+}
+
+article h2 span:hover{
+    color:#f71111;
+}
+
+.images li:hover{
+    position: relative;
+    top:-4px;
+    left:-2px;
+    box-shadow: 9px 9px 35px -15px rgba(29,29,138,0.8);
+}
+
+form input:focus{
+    border: 2px solid #e0cbab;
+    outline: none;
+}
+
+form input:valid{
+    border: 2px solid #a9e6a4;
+    outline: none;
+}
+
+@media only screen and (max-width: 800px){
+
+    .images{
+        /* text-align: center;
+        white-space: nowrap;
+        padding: 20px 0; */
+    }
+    
+    .images li{
+        max-width: 100%;
+        display: block;
+    }
+    
+    .img-left{
+        margin: 0 0 10px 0;
+    }
+    .img-right{
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+
+    .banner .welcome{
+        left: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .banner .welcome{
+        background-color: transparent;
+        color:#fff;
+        position: relative;
+        padding: 30px 50px 30px 50px;
+        top: 15%;
+    }
+
+    .banner {
+        height: 300px;
+        /* margin-top: 93px; */
+    }
+
+    .banner h2{
+        color: white;
+        text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+        }
+
+    .banner h2 span{
+        font-size: 1em;
+    }
 
 }
